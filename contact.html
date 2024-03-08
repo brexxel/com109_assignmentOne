@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- meta infromation, title and link for css -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="description" content="assingment one template">
+    </head>
+
+    <body>
+        <!-- navigation structure with hyperlinks -->
+        <nav class="navbar">
+            <div>
+                <ul>
+                    <li><a href="index.html" class="logoName">AssignmentOne</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html" class="active"><u>Contact</u></a></li>
+
+                </ul>
+            </div>
+            <!-- Search bar in navigation bar-->
+            <div class="search">
+                <form>
+                    <input type="text" name="search" placeholder="Search...">
+                    <button type="go">Go</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- container for all content on page-->
+        <div id="entirePageContainer">
+            <div id="pageWrapper"></div>
+            <header class="top-header">
+                <h1>Get In Touch</h1>
+                <p><strong>Phone:</strong> +44 29249 2949</p>
+                <p><strong>Email:</strong> <a href="mailto:fakeemail@fakedomain.com">fakeemail@fakedomain.com</a></p>
+                <p><strong>Address:</strong> 18 fake lane, off 25th fake street</p>
+                <p>Or, feel free to complete the <strong>contact form</strong> below and send us a message directly.</p>
+            </header>
+
+            <main>
+                <form id="form-container" action="">
+                    <!-- labels and input for the contact form-->
+                    <div class="column">
+                        <label for="fn">First Name</label>
+                        <input type="text" id="fn" name="firstName" placeholder="your first name" required>
+                    </div>
+
+                    <div class="column">
+                        <label for="ln">Last Name</label>
+                        <input type="text" id="ln" name="lastName" placeholder="your last name" required>
+                    </div>
+
+                    <div class="column">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="Email" placeholder="your email address" required>
+
+
+                    </div>
+
+                    <div class="column">
+                        <label for="pnum">Phone Number</label>
+                        <input type="text" id="pnum" name="Phone Number" placeholder="your phone number..." required>
+                    </div>
+
+                    <div class="column">
+                        <label for="pc">Postcode</label>
+                        <input type="text" id="pc" name="pc" placeholder="your Postcode..." required>
+                    </div>
+
+                    <div class="textBlock">
+                        <label for="reason">Reason For Contact</label>
+                        <textarea id="reason" name="reason" placeholder="tell us why you are reaching out..." required
+                            rows="5" cols"50"></textarea>>
+                    </div>
+
+                    <div class="submitButton">
+                        <button>Submit</button>
+                    </div>
+                </form>
+        </div>
+
+
+        <footer id="footer">
+            <label for="cname">@ Company name</label>
+        </footer>
+            </main>
+            </div>
+
+            <!-- linking javascript-->
+            <script src="js/script.js"></script>
+    </body>
+
+
+
+</html>

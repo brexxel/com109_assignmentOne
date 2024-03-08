@@ -1,0 +1,226 @@
+/* Ensures navigation bar is at the top */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #14453D;;
+
+}
+
+#entirePageContainer {
+    min-height: 100vh;
+}
+
+/* specifc customization for homepage */
+.homepage {
+    background: #14453D;;
+
+}
+
+#footer {
+    position: fixed;
+    background-color: #1B1B1B;
+    text-align: left;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    height: 3.5vh;
+}
+
+/* navigation bar elements*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #1B1B1B;
+    color: white;
+}
+
+
+
+.search{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -14px; 
+    font-size: 20px; 
+    padding-right: 10px;
+}
+
+.search input{
+    font-size: 17px;
+    height: 25px;
+}
+
+.search button{
+    height: 32px;
+    font-size: 17px;
+    background-color: white;
+}
+
+.search button:hover{
+    background-color: #E99787;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #1B1B1B;
+}
+
+/* Ensures that li elements are on the right side */
+nav li {
+    float: left;
+
+}
+
+/* */
+nav a {
+    display: block;
+    color: #E4E4DE;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 14px 16px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #E99787;
+}
+
+
+nav .active {
+    color: #E99787;
+}
+
+
+
+.logoName {
+    color: #E4E4DE;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+/* Allows the logo name to be clickable but not highlighted when hoverd over*/
+
+.logoName:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.top-header {
+    background-color: #14453D;
+    color: #E4E4DE;
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+
+}
+
+.top-header p {
+    font-size: 20px;
+}
+
+.top-header a{
+    color: white;
+}
+
+
+#homePageHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    background-color: #14453D;
+    color: white;
+}
+
+
+
+#form-container {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color:#E4E4DE;
+    padding: 40px;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 5px 3px 5px black;
+    border-radius: 10px;
+    color: black;
+}
+
+.column label,
+.textBlock textarea {
+    color: black;
+    font-size: 16px;
+    margin: centre;
+}
+
+.column input[type="text"],
+.textBlock textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 15px;
+    color: black;
+}
+
+.submitButton button {
+    margin: 7px;
+    width: 625px;
+    padding: 13px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.submitButton button:hover{
+    color: white;
+    background-color: #E99787;;
+}
+
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2px;
+    color: white;
+    right: 1;
+    width: 100%;
+
+}
+
+
+.learnMore {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.learnMore{
+    color: black;
+}
+
+.learnMore:hover {
+    background-color: #E99787;
+}
+
